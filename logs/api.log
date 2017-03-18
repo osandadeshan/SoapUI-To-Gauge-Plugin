@@ -1,0 +1,24 @@
+11:40:07.546 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+11:40:07.547 Watching directory: C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\specs
+11:40:07.547 Found 1 files
+11:40:07.548 Initializing concepts cache with 0 concepts
+11:40:07.549 Initializing specs cache with 1 specs
+11:40:07.549 Adding specs from C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\specs\example.spec
+11:40:07.549 Initializing steps cache with 3 steps
+11:40:08.025 Api Request Received: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathRequest:<language:"java" > 
+11:40:08.044 Sending API response: messageType:UnsupportedApiMessageResponse messageId:5 unsupportedApiMessageResponse:<> 
+11:40:08.344 Api Request Received: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathRequest:<language:"java" > 
+11:40:08.344 Sending API response: messageType:UnsupportedApiMessageResponse messageId:5 unsupportedApiMessageResponse:<> 
+11:40:08.927 Api Request Received: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathRequest:<language:"java" > 
+11:40:08.927 Sending API response: messageType:UnsupportedApiMessageResponse messageId:5 unsupportedApiMessageResponse:<> 
+11:40:08.987 Api Request Received: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathRequest:<language:"java" > 
+11:40:08.987 Sending API response: messageType:UnsupportedApiMessageResponse messageId:5 unsupportedApiMessageResponse:<> 
+11:40:13.765 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:40:13.775 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+11:40:13.781 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:40:13.782 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+11:40:13.782 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:40:13.783 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+11:40:43.295 Spec file removed: C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\specs\example.spec
+11:52:14.854 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute TestCase of <TestCase> in TestSuite of <TestSuite>" > 
+11:52:14.867 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute TestCase of {} in TestSuite of {}" parameterizedStepValue:"Execute TestCase of <TestCase> in TestSuite of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 

@@ -1,0 +1,8 @@
+{
+	"Flags": {
+		"-simple-console": "true"
+	},
+	"FailedItems": [
+		"specs\\LoginTestSuite Specification.spec:11"
+	]
+}
