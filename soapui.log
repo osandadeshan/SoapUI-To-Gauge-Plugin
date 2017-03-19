@@ -1,9 +1,9 @@
-2017-03-19 10:33:55,787 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\mysql-connector-java-5.1.37.jar] to extensions classpath
-2017-03-19 10:33:55,788 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\soapui-5.3.0.jar] to extensions classpath
-2017-03-19 10:33:56,182 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Osanda Deshan\soapui-settings.xml]
-2017-03-19 10:34:00,689 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
-2017-03-19 10:34:00,689 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
-2017-03-19 10:34:02,072 WARN  [PluginManager] Could not load plugin from file [C:\Users\Osanda Deshan\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2017-03-19 20:28:43,337 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\mysql-connector-java-5.1.37.jar] to extensions classpath
+2017-03-19 20:28:43,338 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\soapui-5.3.0.jar] to extensions classpath
+2017-03-19 20:28:43,632 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Osanda Deshan\soapui-settings.xml]
+2017-03-19 20:28:50,376 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2017-03-19 20:28:50,376 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2017-03-19 20:28:51,757 WARN  [PluginManager] Could not load plugin from file [C:\Users\Osanda Deshan\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.swagger.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:102)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:42)
@@ -36,8 +36,8 @@ Caused by: java.lang.IllegalStateException: zip file closed
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:129)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:92)
 	... 11 more
-2017-03-19 10:34:02,092 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2017-03-19 10:34:02,093 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2017-03-19 20:28:51,775 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-03-19 20:28:51,776 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -61,8 +61,8 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:02,101 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2017-03-19 10:34:02,101 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+2017-03-19 20:28:51,786 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-03-19 20:28:51,786 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -86,9 +86,9 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:02,112 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
-2017-03-19 10:34:03,043 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2017-03-19 10:34:03,043 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2017-03-19 20:28:51,798 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2017-03-19 20:28:52,730 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-03-19 20:28:52,730 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -112,8 +112,8 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:03,045 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2017-03-19 10:34:03,045 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+2017-03-19 20:28:52,732 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-03-19 20:28:52,732 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -137,9 +137,9 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:03,060 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
-2017-03-19 10:34:03,803 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2017-03-19 10:34:03,803 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2017-03-19 20:28:52,747 INFO  [PluginManager] Adding plugin from [C:\Users\Osanda Deshan\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2017-03-19 20:28:53,381 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-03-19 20:28:53,381 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -163,8 +163,8 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:03,806 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2017-03-19 10:34:03,806 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+2017-03-19 20:28:53,383 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-03-19 20:28:53,383 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -188,36 +188,36 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2017-03-19 10:34:03,816 INFO  [PluginManager] 4 plugins loaded in 3129 ms
-2017-03-19 10:34:03,816 INFO  [DefaultSoapUICore] All plugins loaded
-2017-03-19 10:34:05,581 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:05,596 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:05,596 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username Password TestCase]
-2017-03-19 10:34:05,611 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username Password TestCase]
-2017-03-19 10:34:05,621 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username Password]
-2017-03-19 10:34:07,722 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:07,723 INFO  [SoapUITestCaseRunner] Assertion [check login status successfull] has status VALID
-2017-03-19 10:34:07,723 INFO  [SoapUITestCaseRunner] Assertion [check no any null values] has status VALID
-2017-03-19 10:34:07,723 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
-2017-03-19 10:34:07,723 INFO  [SoapUITestCaseRunner] running step [Carer Table]
-2017-03-19 10:34:14,149 INFO  [SoapUITestCaseRunner] Assertion [check the carer "Rebeca" is registered in the system] has status VALID
-2017-03-19 10:34:14,149 INFO  [SoapUITestCaseRunner] Assertion [check the carer "testCustomer" is registered in the system] has status VALID
-2017-03-19 10:34:14,150 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
-2017-03-19 10:34:14,150 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [Osa] in Response
-2017-03-19 10:34:14,150 ERROR [SoapUITestCaseRunner] Carer Table failed, exporting to [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\LoginTestSuite-Login_Existing_User_With_Correct_Username_Password_TestCase-Carer_Table-0-FAILED.txt]
-2017-03-19 10:34:14,162 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username Password TestCase], time taken: 8249ms, status: FAILED
-2017-03-19 10:34:14,162 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username Password TestCase] finished with status [FAILED] in 8249ms
-2017-03-19 10:34:14,468 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:27,135 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:27,136 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:27,136 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username Wrong Password TestCase]
-2017-03-19 10:34:27,137 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username Wrong Password TestCase]
-2017-03-19 10:34:27,137 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username Wrong Password]
-2017-03-19 10:34:27,543 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:27,544 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
-2017-03-19 10:34:27,544 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
-2017-03-19 10:34:27,883 ERROR [SoapUI] An error occurred [No such property: runner for class: Script1], see error log for details
-2017-03-19 10:34:27,883 ERROR [errorlog] groovy.lang.MissingPropertyException: No such property: runner for class: Script1
+2017-03-19 20:28:53,389 INFO  [PluginManager] 4 plugins loaded in 3015 ms
+2017-03-19 20:28:53,390 INFO  [DefaultSoapUICore] All plugins loaded
+2017-03-19 20:28:55,125 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:28:55,135 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:28:55,135 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username Password TestCase]
+2017-03-19 20:28:55,144 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username Password TestCase]
+2017-03-19 20:28:55,154 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username Password]
+2017-03-19 20:28:59,853 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:28:59,854 INFO  [SoapUITestCaseRunner] Assertion [check login status successfull] has status VALID
+2017-03-19 20:28:59,854 INFO  [SoapUITestCaseRunner] Assertion [check no any null values] has status VALID
+2017-03-19 20:28:59,854 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
+2017-03-19 20:28:59,854 INFO  [SoapUITestCaseRunner] running step [Carer Table]
+2017-03-19 20:29:06,556 INFO  [SoapUITestCaseRunner] Assertion [check the carer "Rebeca" is registered in the system] has status VALID
+2017-03-19 20:29:06,556 INFO  [SoapUITestCaseRunner] Assertion [check the carer "testCustomer" is registered in the system] has status VALID
+2017-03-19 20:29:06,556 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2017-03-19 20:29:06,556 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [Osa] in Response
+2017-03-19 20:29:06,556 ERROR [SoapUITestCaseRunner] Carer Table failed, exporting to [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\LoginTestSuite-Login_Existing_User_With_Correct_Username_Password_TestCase-Carer_Table-0-FAILED.txt]
+2017-03-19 20:29:06,569 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username Password TestCase], time taken: 11143ms, status: FAILED
+2017-03-19 20:29:06,570 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username Password TestCase] finished with status [FAILED] in 11143ms
+2017-03-19 20:29:06,824 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:28,427 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:28,428 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:28,429 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username Wrong Password TestCase]
+2017-03-19 20:29:28,429 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username Wrong Password TestCase]
+2017-03-19 20:29:28,429 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username Wrong Password]
+2017-03-19 20:29:28,919 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:28,920 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
+2017-03-19 20:29:28,920 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
+2017-03-19 20:29:29,248 ERROR [SoapUI] An error occurred [No such property: runner for class: Script1], see error log for details
+2017-03-19 20:29:29,249 ERROR [errorlog] groovy.lang.MissingPropertyException: No such property: runner for class: Script1
 groovy.lang.MissingPropertyException: No such property: runner for class: Script1
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
 	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
@@ -252,206 +252,206 @@ groovy.lang.MissingPropertyException: No such property: runner for class: Script
 	at com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
 	at com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
 	at java.lang.Thread.run(Thread.java:745)
-2017-03-19 10:34:27,885 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username Wrong Password TestCase], time taken: 387ms, status: FINISHED
-2017-03-19 10:34:27,885 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username Wrong Password TestCase] finished with status [FINISHED] in 387ms
-2017-03-19 10:34:28,020 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:28,557 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:28,559 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:28,559 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username & Null Password TestCase]
-2017-03-19 10:34:28,559 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username & Null Password TestCase]
-2017-03-19 10:34:28,559 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username & Null Password TestCase]
-2017-03-19 10:34:28,995 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:28,995 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:34:28,995 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:34:28,996 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:34:28,996 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:34:28,996 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:34:34,344 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username & Null Password TestCase], time taken: 5770ms, status: FINISHED
-2017-03-19 10:34:34,344 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username & Null Password TestCase] finished with status [FINISHED] in 5770ms
-2017-03-19 10:34:34,474 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:38,825 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:38,827 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:38,827 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username & Empty Password TestCase]
-2017-03-19 10:34:38,827 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username & Empty Password TestCase]
-2017-03-19 10:34:38,827 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username & Empty Password TestCase]
-2017-03-19 10:34:39,602 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:39,603 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:34:39,603 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:34:39,603 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:34:39,604 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:34:39,604 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:34:44,313 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username & Empty Password TestCase], time taken: 5472ms, status: FINISHED
-2017-03-19 10:34:44,313 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username & Empty Password TestCase] finished with status [FINISHED] in 5472ms
-2017-03-19 10:34:44,428 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:49,100 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:49,101 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:49,102 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username and Correct Password TestCase]
-2017-03-19 10:34:49,102 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username and Correct Password TestCase]
-2017-03-19 10:34:49,102 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username and Correct Password TestCase]
-2017-03-19 10:34:49,520 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:49,520 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
-2017-03-19 10:34:49,520 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
-2017-03-19 10:34:49,521 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username and Correct Password TestCase], time taken: 409ms, status: FINISHED
-2017-03-19 10:34:49,521 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username and Correct Password TestCase] finished with status [FINISHED] in 409ms
-2017-03-19 10:34:49,606 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:50,395 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:50,396 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:50,396 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username and Wrong Password TestCase]
-2017-03-19 10:34:50,396 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username and Wrong Password TestCase]
-2017-03-19 10:34:50,396 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username and Wrong Password TestCase]
-2017-03-19 10:34:50,862 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:50,863 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
-2017-03-19 10:34:50,863 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
-2017-03-19 10:34:50,863 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username and Wrong Password TestCase], time taken: 456ms, status: FINISHED
-2017-03-19 10:34:50,863 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username and Wrong Password TestCase] finished with status [FINISHED] in 456ms
-2017-03-19 10:34:50,955 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:51,437 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:34:51,438 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:34:51,438 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username & Empty Password TestCase]
-2017-03-19 10:34:51,438 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username & Empty Password TestCase]
-2017-03-19 10:34:51,439 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username & Empty Password TestCase]
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:34:51,864 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:34:55,990 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username & Empty Password TestCase], time taken: 4539ms, status: FINISHED
-2017-03-19 10:34:55,991 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username & Empty Password TestCase] finished with status [FINISHED] in 4539ms
-2017-03-19 10:34:56,084 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:01,602 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:01,603 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:01,603 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username & Null Password TestCase]
-2017-03-19 10:35:01,603 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username & Null Password TestCase]
-2017-03-19 10:35:01,604 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username & Null Password TestCase]
-2017-03-19 10:35:02,018 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:02,019 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:02,019 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:02,019 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:02,019 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:02,019 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:35:07,836 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username & Null Password TestCase], time taken: 6222ms, status: FINISHED
-2017-03-19 10:35:07,837 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username & Null Password TestCase] finished with status [FINISHED] in 6222ms
-2017-03-19 10:35:07,935 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:13,261 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:13,262 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:13,262 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username and Null Password TestCase]
-2017-03-19 10:35:13,262 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username and Null Password TestCase]
-2017-03-19 10:35:13,262 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username and Null Password TestCase]
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username and Null Password TestCase], time taken: 428ms, status: FINISHED
-2017-03-19 10:35:13,695 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username and Null Password TestCase] finished with status [FINISHED] in 428ms
-2017-03-19 10:35:13,773 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:14,229 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:14,230 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:14,230 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Correct Password TestCase]
-2017-03-19 10:35:14,230 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Correct Password TestCase]
-2017-03-19 10:35:14,230 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Correct Password TestCase]
-2017-03-19 10:35:14,646 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:14,646 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:14,646 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:14,647 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:14,647 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:14,647 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:35:20,935 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Correct Password TestCase], time taken: 6691ms, status: FINISHED
-2017-03-19 10:35:20,936 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Correct Password TestCase] finished with status [FINISHED] in 6691ms
-2017-03-19 10:35:21,000 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:25,188 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:25,188 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:25,189 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Wrong Password TestCase]
-2017-03-19 10:35:25,189 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Wrong Password TestCase]
-2017-03-19 10:35:25,189 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Wrong Password TestCase]
-2017-03-19 10:35:25,577 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:25,578 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:25,578 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:25,578 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:25,578 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:25,578 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:35:31,219 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Wrong Password TestCase], time taken: 6020ms, status: FINISHED
-2017-03-19 10:35:31,220 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Wrong Password TestCase] finished with status [FINISHED] in 6020ms
-2017-03-19 10:35:31,304 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:38,828 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:38,829 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:38,829 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Empty Password TestCase]
-2017-03-19 10:35:38,829 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Empty Password TestCase]
-2017-03-19 10:35:38,829 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Empty Password TestCase]
-2017-03-19 10:35:39,247 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:39,247 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:39,247 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:39,248 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:39,248 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:39,248 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:35:43,723 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Empty Password TestCase], time taken: 4883ms, status: FINISHED
-2017-03-19 10:35:43,723 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Empty Password TestCase] finished with status [FINISHED] in 4883ms
-2017-03-19 10:35:43,781 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:51,808 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:51,808 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:51,808 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username and Empty Password TestCase]
-2017-03-19 10:35:51,808 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username and Empty Password TestCase]
-2017-03-19 10:35:51,809 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username and Empty Password TestCase]
-2017-03-19 10:35:52,155 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:52,155 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:52,156 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:52,156 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:52,156 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:52,156 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username and Empty Password TestCase], time taken: 339ms, status: FINISHED
-2017-03-19 10:35:52,157 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username and Empty Password TestCase] finished with status [FINISHED] in 339ms
-2017-03-19 10:35:52,217 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:52,567 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:35:52,568 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:35:52,568 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Correct Password TestCase]
-2017-03-19 10:35:52,568 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Correct Password TestCase]
-2017-03-19 10:35:52,568 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Correct Password TestCase]
-2017-03-19 10:35:52,837 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:35:52,837 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:35:52,837 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:35:52,837 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:35:52,837 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:35:52,838 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:35:56,971 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Correct Password TestCase], time taken: 4397ms, status: FINISHED
-2017-03-19 10:35:56,971 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Correct Password TestCase] finished with status [FINISHED] in 4397ms
-2017-03-19 10:35:57,058 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:01,789 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:01,790 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:36:01,790 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Wrong Password TestCase]
-2017-03-19 10:36:01,790 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Wrong Password TestCase]
-2017-03-19 10:36:01,790 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Wrong Password TestCase]
-2017-03-19 10:36:02,054 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:36:02,054 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:36:02,055 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:36:02,055 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:36:02,055 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:36:02,055 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:36:06,328 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Wrong Password TestCase], time taken: 4529ms, status: FINISHED
-2017-03-19 10:36:06,329 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Wrong Password TestCase] finished with status [FINISHED] in 4529ms
-2017-03-19 10:36:06,407 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:10,585 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:10,586 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:36:10,586 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Null Password TestCase]
-2017-03-19 10:36:10,586 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Null Password TestCase]
-2017-03-19 10:36:10,586 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Null Password TestCase]
-2017-03-19 10:36:10,852 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:36:10,852 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:36:10,853 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:36:10,853 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
-2017-03-19 10:36:10,853 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
-2017-03-19 10:36:10,853 INFO  [SoapUITestCaseRunner] running step [User Table]
-2017-03-19 10:36:14,569 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Null Password TestCase], time taken: 3971ms, status: FINISHED
-2017-03-19 10:36:14,569 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Null Password TestCase] finished with status [FINISHED] in 3971ms
-2017-03-19 10:36:14,637 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:19,562 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:19,563 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
-2017-03-19 10:36:19,564 INFO  [SoapUITestCaseRunner] Running TestCase [Login Unregistered User TestCase]
-2017-03-19 10:36:19,564 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Unregistered User TestCase]
-2017-03-19 10:36:19,564 INFO  [SoapUITestCaseRunner] running step [Login NonExisting User]
-2017-03-19 10:36:19,886 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2017-03-19 10:36:19,886 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
-2017-03-19 10:36:19,886 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
-2017-03-19 10:36:19,886 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Unregistered User TestCase], time taken: 319ms, status: FINISHED
-2017-03-19 10:36:19,886 INFO  [SoapUITestCaseRunner] TestCase [Login Unregistered User TestCase] finished with status [FINISHED] in 319ms
-2017-03-19 10:36:19,937 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
-2017-03-19 10:36:20,440 WARN  [Tools] Could not delete temporary directory C:\Users\OSANDA~1\AppData\Local\Temp\e5fcc68d-0947-46df-8c44-734055e9b717
+2017-03-19 20:29:29,250 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username Wrong Password TestCase], time taken: 473ms, status: FINISHED
+2017-03-19 20:29:29,250 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username Wrong Password TestCase] finished with status [FINISHED] in 473ms
+2017-03-19 20:29:29,398 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:29,753 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:29,754 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:29,755 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username & Null Password TestCase]
+2017-03-19 20:29:29,755 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username & Null Password TestCase]
+2017-03-19 20:29:29,755 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username & Null Password TestCase]
+2017-03-19 20:29:30,023 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:30,023 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:29:30,023 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:29:30,023 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:29:30,023 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:29:30,024 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:29:35,139 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username & Null Password TestCase], time taken: 5371ms, status: FINISHED
+2017-03-19 20:29:35,140 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username & Null Password TestCase] finished with status [FINISHED] in 5371ms
+2017-03-19 20:29:35,258 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:39,979 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:39,980 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:39,980 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Correct Username & Empty Password TestCase]
+2017-03-19 20:29:39,980 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Correct Username & Empty Password TestCase]
+2017-03-19 20:29:39,981 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Correct Username & Empty Password TestCase]
+2017-03-19 20:29:40,278 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:40,278 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:29:40,278 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:29:40,279 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:29:40,279 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:29:40,279 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:29:47,069 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Correct Username & Empty Password TestCase], time taken: 7082ms, status: FINISHED
+2017-03-19 20:29:47,070 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Correct Username & Empty Password TestCase] finished with status [FINISHED] in 7082ms
+2017-03-19 20:29:47,178 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:52,397 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:52,399 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:52,399 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username and Correct Password TestCase]
+2017-03-19 20:29:52,399 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username and Correct Password TestCase]
+2017-03-19 20:29:52,399 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username and Correct Password TestCase]
+2017-03-19 20:29:52,671 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:52,671 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
+2017-03-19 20:29:52,671 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
+2017-03-19 20:29:52,672 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username and Correct Password TestCase], time taken: 261ms, status: FINISHED
+2017-03-19 20:29:52,672 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username and Correct Password TestCase] finished with status [FINISHED] in 261ms
+2017-03-19 20:29:52,774 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:53,170 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:53,171 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:53,171 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username and Wrong Password TestCase]
+2017-03-19 20:29:53,172 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username and Wrong Password TestCase]
+2017-03-19 20:29:53,172 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username and Wrong Password TestCase]
+2017-03-19 20:29:53,469 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:53,470 INFO  [SoapUITestCaseRunner] Assertion [check login status unsuccessfull] has status VALID
+2017-03-19 20:29:53,470 INFO  [SoapUITestCaseRunner] Assertion [check token is not null] has status VALID
+2017-03-19 20:29:53,470 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username and Wrong Password TestCase], time taken: 289ms, status: FINISHED
+2017-03-19 20:29:53,470 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username and Wrong Password TestCase] finished with status [FINISHED] in 289ms
+2017-03-19 20:29:53,549 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:54,260 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:29:54,261 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:29:54,262 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username & Empty Password TestCase]
+2017-03-19 20:29:54,262 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username & Empty Password TestCase]
+2017-03-19 20:29:54,262 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username & Empty Password TestCase]
+2017-03-19 20:29:54,502 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:29:54,502 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:29:54,503 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:29:54,503 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:29:54,503 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:29:54,503 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:29:57,949 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username & Empty Password TestCase], time taken: 3674ms, status: FINISHED
+2017-03-19 20:29:57,949 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username & Empty Password TestCase] finished with status [FINISHED] in 3674ms
+2017-03-19 20:29:58,040 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:02,924 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:02,925 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:02,925 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Wrong Username & Null Password TestCase]
+2017-03-19 20:30:02,925 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Wrong Username & Null Password TestCase]
+2017-03-19 20:30:02,925 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Wrong Username & Null Password TestCase]
+2017-03-19 20:30:03,239 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:03,239 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:03,239 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:03,239 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:03,240 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:03,240 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:30:06,498 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Wrong Username & Null Password TestCase], time taken: 3563ms, status: FINISHED
+2017-03-19 20:30:06,499 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Wrong Username & Null Password TestCase] finished with status [FINISHED] in 3563ms
+2017-03-19 20:30:06,579 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:11,470 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:11,471 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:11,471 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username and Null Password TestCase]
+2017-03-19 20:30:11,471 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username and Null Password TestCase]
+2017-03-19 20:30:11,471 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username and Null Password TestCase]
+2017-03-19 20:30:11,712 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:11,712 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:11,712 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:11,713 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:11,713 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:11,713 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username and Null Password TestCase], time taken: 230ms, status: FINISHED
+2017-03-19 20:30:11,713 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username and Null Password TestCase] finished with status [FINISHED] in 230ms
+2017-03-19 20:30:11,802 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:12,104 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:12,105 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:12,105 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Correct Password TestCase]
+2017-03-19 20:30:12,105 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Correct Password TestCase]
+2017-03-19 20:30:12,105 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Correct Password TestCase]
+2017-03-19 20:30:12,340 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:12,341 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:12,341 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:12,341 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:12,341 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:12,341 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:30:18,437 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Correct Password TestCase], time taken: 6319ms, status: FINISHED
+2017-03-19 20:30:18,437 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Correct Password TestCase] finished with status [FINISHED] in 6319ms
+2017-03-19 20:30:18,507 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:24,060 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:24,060 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:24,060 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Wrong Password TestCase]
+2017-03-19 20:30:24,061 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Wrong Password TestCase]
+2017-03-19 20:30:24,061 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Wrong Password TestCase]
+2017-03-19 20:30:24,347 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:24,348 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:24,348 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:24,348 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:24,348 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:24,348 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:30:29,768 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Wrong Password TestCase], time taken: 5699ms, status: FINISHED
+2017-03-19 20:30:29,769 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Wrong Password TestCase] finished with status [FINISHED] in 5699ms
+2017-03-19 20:30:29,832 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:37,387 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:37,388 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:37,388 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Null Username & Empty Password TestCase]
+2017-03-19 20:30:37,388 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Null Username & Empty Password TestCase]
+2017-03-19 20:30:37,389 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Null Username & Empty Password TestCase]
+2017-03-19 20:30:37,628 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:37,629 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:37,629 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:37,629 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:37,629 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:37,629 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:30:44,585 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Null Username & Empty Password TestCase], time taken: 7186ms, status: FINISHED
+2017-03-19 20:30:44,586 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Null Username & Empty Password TestCase] finished with status [FINISHED] in 7186ms
+2017-03-19 20:30:44,652 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:50,659 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:50,659 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:50,660 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username and Empty Password TestCase]
+2017-03-19 20:30:50,660 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username and Empty Password TestCase]
+2017-03-19 20:30:50,660 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username and Empty Password TestCase]
+2017-03-19 20:30:50,907 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:50,907 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:50,908 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:50,908 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:50,908 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:50,908 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username and Empty Password TestCase], time taken: 240ms, status: FINISHED
+2017-03-19 20:30:50,909 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username and Empty Password TestCase] finished with status [FINISHED] in 240ms
+2017-03-19 20:30:50,974 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:51,292 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:30:51,293 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:30:51,293 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Correct Password TestCase]
+2017-03-19 20:30:51,293 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Correct Password TestCase]
+2017-03-19 20:30:51,293 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Correct Password TestCase]
+2017-03-19 20:30:51,538 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:30:51,538 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:30:51,539 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:30:51,539 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:30:51,539 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:30:51,539 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:30:56,104 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Correct Password TestCase], time taken: 4800ms, status: FINISHED
+2017-03-19 20:30:56,105 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Correct Password TestCase] finished with status [FINISHED] in 4800ms
+2017-03-19 20:30:56,176 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:02,419 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:02,420 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:31:02,420 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Wrong Password TestCase]
+2017-03-19 20:31:02,421 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Wrong Password TestCase]
+2017-03-19 20:31:02,421 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Wrong Password TestCase]
+2017-03-19 20:31:02,663 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:31:02,663 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:31:02,663 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:31:02,663 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:31:02,663 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:31:02,664 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:31:10,186 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Wrong Password TestCase], time taken: 7759ms, status: FINISHED
+2017-03-19 20:31:10,186 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Wrong Password TestCase] finished with status [FINISHED] in 7759ms
+2017-03-19 20:31:10,252 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:16,891 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:16,892 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:31:16,892 INFO  [SoapUITestCaseRunner] Running TestCase [Login Existing User With Empty Username & Null Password TestCase]
+2017-03-19 20:31:16,892 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Existing User With Empty Username & Null Password TestCase]
+2017-03-19 20:31:16,893 INFO  [SoapUITestCaseRunner] running step [Login Existing User With Empty Username & Null Password TestCase]
+2017-03-19 20:31:17,156 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:31:17,156 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:31:17,156 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:31:17,157 INFO  [SoapUITestCaseRunner] Assertion [check userId is null] has status VALID
+2017-03-19 20:31:17,157 INFO  [SoapUITestCaseRunner] Assertion [check grampaDetailsList is null] has status VALID
+2017-03-19 20:31:17,157 INFO  [SoapUITestCaseRunner] running step [User Table]
+2017-03-19 20:31:21,785 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Existing User With Empty Username & Null Password TestCase], time taken: 4883ms, status: FINISHED
+2017-03-19 20:31:21,786 INFO  [SoapUITestCaseRunner] TestCase [Login Existing User With Empty Username & Null Password TestCase] finished with status [FINISHED] in 4883ms
+2017-03-19 20:31:21,850 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:27,137 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:27,137 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Kraydel-server]
+2017-03-19 20:31:27,137 INFO  [SoapUITestCaseRunner] Running TestCase [Login Unregistered User TestCase]
+2017-03-19 20:31:27,138 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Unregistered User TestCase]
+2017-03-19 20:31:27,138 INFO  [SoapUITestCaseRunner] running step [Login NonExisting User]
+2017-03-19 20:31:27,385 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2017-03-19 20:31:27,385 INFO  [SoapUITestCaseRunner] Assertion [check login status unauthorized] has status VALID
+2017-03-19 20:31:27,385 INFO  [SoapUITestCaseRunner] Assertion [check token is null] has status VALID
+2017-03-19 20:31:27,385 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Unregistered User TestCase], time taken: 242ms, status: FINISHED
+2017-03-19 20:31:27,386 INFO  [SoapUITestCaseRunner] TestCase [Login Unregistered User TestCase] finished with status [FINISHED] in 242ms
+2017-03-19 20:31:27,449 INFO  [WsdlProject] Loaded project from [file:/E:/Mitra%20Innovation/QA%20Automation/SoapUI/Projects/Kraydel-server-Test.xml]
+2017-03-19 20:31:28,785 WARN  [Tools] Could not delete temporary directory C:\Users\OSANDA~1\AppData\Local\Temp\c74e97dc-ab89-4a89-acd2-9666823b7811

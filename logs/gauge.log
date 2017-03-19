@@ -2152,3 +2152,86 @@ java.lang.Thread.run(Thread.java:745)
 10:36:21.031 
 Total time taken: 2m24.995s
 10:36:21.031 Updates are available. Run gauge --check-updates for more info.
+20:28:37.794 Checking updates...
+20:28:42.967 # LoginTestSuite Specification
+20:28:42.971 ## Login Existing User With Correct Username Password
+20:28:42.974 * Execute TestCase of "Login Existing User With Correct Username Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:28.213 
+Failed Step: Execute TestCase of "Login Existing User With Correct Username Password TestCase" in TestSuite of "LoginTestSuite"
+20:29:28.213 Specification: specs\LoginTestSuite Specification.spec:13
+20:29:28.213 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+20:29:28.213 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:74)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+20:29:28.216 ## Login Existing User With Correct Username Wrong Password
+20:29:28.217 * Execute TestCase of "Login Existing User With Correct Username Wrong Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:29.628 ## Login Existing User With Correct Username & Null Password
+20:29:29.630 * Execute TestCase of "Login Existing User With Correct Username & Null Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:39.876 ## Login Existing User With Correct Username & Empty Password
+20:29:39.880 * Execute TestCase of "Login Existing User With Correct Username & Empty Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:52.298 ## Login Existing User With Wrong Username and Correct Password
+20:29:52.303 * Execute TestCase of "Login Existing User With Wrong Username and Correct Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:53.079 ## Login Existing User With Wrong Username and Wrong Password
+20:29:53.084 * Execute TestCase of "Login Existing User With Wrong Username and Wrong Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:29:53.798 ## Login Existing User With Wrong Username & Empty Password
+20:29:53.802 * Execute TestCase of "Login Existing User With Wrong Username & Empty Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:02.836 ## Login Existing User With Wrong Username & Null Password
+20:30:02.840 * Execute TestCase of "Login Existing User With Wrong Username & Null Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:11.395 ## Login Existing User With Null Username and Null Password
+20:30:11.400 * Execute TestCase of "Login Existing User With Null Username and Null Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:12.038 ## Login Existing User With Null Username & Correct Password
+20:30:12.043 * Execute TestCase of "Login Existing User With Null Username & Correct Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:23.985 ## Login Existing User With Null Username & Wrong Password
+20:30:23.989 * Execute TestCase of "Login Existing User With Null Username & Wrong Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:37.330 ## Login Existing User With Null Username & Empty Password
+20:30:37.333 * Execute TestCase of "Login Existing User With Null Username & Empty Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:50.593 ## Login Existing User With Empty Username and Empty Password
+20:30:50.598 * Execute TestCase of "Login Existing User With Empty Username and Empty Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:30:51.239 ## Login Existing User With Empty Username & Correct Password
+20:30:51.244 * Execute TestCase of "Login Existing User With Empty Username & Correct Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:31:02.334 ## Login Existing User With Empty Username & Wrong Password
+20:31:02.339 * Execute TestCase of "Login Existing User With Empty Username & Wrong Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:31:16.821 ## Login Existing User With Empty Username & Null Password
+20:31:16.827 * Execute TestCase of "Login Existing User With Empty Username & Null Password TestCase" in TestSuite of "LoginTestSuite"
+
+20:31:27.062 ## Login an Unregistered User
+20:31:27.068 * Execute TestCase of "Login Unregistered User TestCase" in TestSuite of "LoginTestSuite"
+20:31:28.781 Plugin [Html Report] with pid [5440] has exited
+20:31:29.082 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:31:29.082 Scenarios:	17 executed	16 passed	1 failed	0 skipped
+20:31:29.092 
+Total time taken: 2m44.82s
+20:31:29.102 Updates are available. Run gauge --check-updates for more info.
