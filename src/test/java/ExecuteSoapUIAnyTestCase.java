@@ -98,8 +98,8 @@ public class ExecuteSoapUIAnyTestCase {
 
             List<TestStepResult> resultList = runner.getResults();
             for (TestStepResult result : resultList) {
-                System.out.println("=========================================================================================================");
-                Gauge.writeMessage("=========================================================================================================");
+                System.out.println("=================================================================================================================================================");
+                Gauge.writeMessage("=================================================================================================================================================");
                 System.out.println(i + ") Executing TestStep '" + testStep.getName() + "'");
                 Gauge.writeMessage("Executing TestStep '" + testStep.getName() + "'");
                 System.out.println("_________________________________________________________________________________________________________");
@@ -121,13 +121,19 @@ public class ExecuteSoapUIAnyTestCase {
                 Gauge.writeMessage("Execution result = '" + result.getStatus() + "'");
                 System.out.println("_________________________________________________________________________________________________________");
                 Gauge.writeMessage("_________________________________________________________________________________________________________");
-                System.out.println("Error Details = '" + result.getError() + "'");
-                Gauge.writeMessage("Error Details = '" + result.getError() + "'");
-
+                //System.out.println("Error Details = '" + result.getError() + "'");
+                //Gauge.writeMessage("Error Details = '" + result.getError() + "'");
+                System.out.println("Execution Time = '" + result.getTimeTaken() + " ms'");
+                Gauge.writeMessage("Execution Time = '" + result.getTimeTaken() + " ms'");
+                System.out.println("_________________________________________________________________________________________________________");
+                Gauge.writeMessage("_________________________________________________________________________________________________________");
+                String endPoint = ((MessageExchange)result).getEndpoint();
+                System.out.println("End Point = " + endPoint);
+                Gauge.writeMessage("End Point = " + endPoint);
                 System.out.println("\n");
                 Gauge.writeMessage("\n");
-                System.out.println("=========================================================================================================");
-                Gauge.writeMessage("=========================================================================================================");
+                System.out.println("=================================================================================================================================================");
+                Gauge.writeMessage("=================================================================================================================================================");
                 System.out.println("\n");
                 Gauge.writeMessage("\n");
                 System.out.println("\n");
