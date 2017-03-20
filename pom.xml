@@ -5,13 +5,22 @@
     <groupId>com.thoughtworks.gauge.maven</groupId>
     <artifactId>gauge-archetype-java</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <repositories>
+        <repository>
+            <id>eviwarePluginRepository</id>
+            <url>http://www.soapui.com/repository/maven2</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
-            <groupId>com.thoughtworks.gauge</groupId>
-            <artifactId>gauge-java</artifactId>
-            <version>0.3.4</version>
-            <scope>test</scope>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.redfish4ktc.soapui</groupId>
+            <artifactId>soapui</artifactId>
+            <version>4.0.1.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -27,7 +36,7 @@
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
-            <version>RELEASE</version>
+            <version>0.6.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -44,6 +53,18 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -68,6 +89,14 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
             </plugin>
         </plugins>
     </build>
