@@ -80,7 +80,7 @@ Getting Started
 
 
 
-Date Created	  : 03/20/2017
+Date Created	: 03/20/2017
 Version         : 1.0.0
-Owner           : Osanda Deshan <onimalarathna@mitrai.com>
+Owner           : Osanda Deshan <osanda.deshan@gmail.com>
 Description     : HTML Report Generation for SoapUI XML Execution
