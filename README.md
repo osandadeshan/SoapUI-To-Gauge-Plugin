@@ -15,7 +15,7 @@
 
 
 
-## Getting Started
+## Getting Started:
 
 1)	Open IntelliJ IDEA Community Edition and Click “Create New Project”
 2)	Select “Gauge” and Click “Next” button
