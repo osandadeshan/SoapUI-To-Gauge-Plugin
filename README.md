@@ -1,10 +1,10 @@
 # HTML Report Generation for SoapUI XML Execution
-###New framework to execute SoapUI XML from Gauge Framework and generate a detailed HTML Report
+### New framework to execute SoapUI XML from Gauge Framework and generate a detailed HTML Report
 
 
 
 
-##Pre Requirements:
+## Pre Requirements:
 
 1)	IntelliJ IDEA Community Edition.
 2)	Gauge and Java Language Runner. 
@@ -15,7 +15,7 @@
 
 
 
-##Getting Started
+## Getting Started
 
 1)	Open IntelliJ IDEA Community Edition and Click “Create New Project”
 2)	Select “Gauge” and Click “Next” button
@@ -81,6 +81,6 @@
 
 
 
-####Version         : 1.0.0
-####Owner           : Osanda Deshan <osanda.deshan@gmail.com>
+#### Version         : 1.0.0
+#### Owner           : Osanda Deshan <osanda.deshan@gmail.com>
 
