@@ -3,6 +3,7 @@ New framework to execute SoapUI XML from Gauge Framework and generate a detailed
 
 
 
+
 Pre Requirements:
 
 1)	IntelliJ IDEA Community Edition.
@@ -10,6 +11,7 @@ Pre Requirements:
 3)	HTML Report Plugin (Please refer “Installing Gauge and IntelliJ IDEA Community Edition” documentation for further knowledge)
 4)	Apache Maven
 5)	SoapUI Free Version (v4.5.1 or above)
+
 
 
 
