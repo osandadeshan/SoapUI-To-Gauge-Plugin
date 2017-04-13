@@ -1,22 +1,24 @@
 import com.eviware.soapui.impl.wsdl.WsdlProject;
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase;
 import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner;
-import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult;
+import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep;
+import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep;
 import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStep;
-import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult;
 import com.eviware.soapui.model.iface.MessageExchange;
-import com.eviware.soapui.model.testsuite.*;
-import com.eviware.soapui.support.SoapUIException;
+import com.eviware.soapui.model.testsuite.Assertable;
+import com.eviware.soapui.model.testsuite.TestAssertion;
+import com.eviware.soapui.model.testsuite.TestStepResult;
 import com.eviware.soapui.support.types.StringToObjectMap;
 import com.eviware.soapui.tools.SoapUITestCaseRunner;
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
-import org.apache.xmlbeans.XmlException;
 import org.junit.Assert;
-import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult;
+
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
+import java.util.Properties;
 
 
 /**
@@ -30,55 +32,36 @@ public class ExecuteSoapUIAnyTestCase {
     int failureCount = 0;
     int totalCount = 0;
     String EXPECTED_RESULT, ACTUAL_RESULT;
+    Boolean isVisible = true;
 
 
 
     @Step("Execute TestCase of <TestCase> in TestSuite of <TestSuite>")
     public void executeSpecificTestCase(String TestCase, String TestSuite) throws Exception {
         EXPECTED_RESULT = "Success";
-            try{
-                SoapUITestCaseRunner soapUITestCaseRunner = new SoapUITestCaseRunner();
-                soapUITestCaseRunner.setProjectFile(FILE_PATH);
-                soapUITestCaseRunner.setTestSuite(TestSuite);
-                soapUITestCaseRunner.setTestCase(TestCase);
-                soapUITestCaseRunner.run();
-                soapUITestCaseRunner.getAssertions();
-                List <TestAssertion> assertions = soapUITestCaseRunner.getAssertions();
+        try{
+            SoapUITestCaseRunner soapUITestCaseRunner = new SoapUITestCaseRunner();
+            soapUITestCaseRunner.setProjectFile(FILE_PATH);
+            soapUITestCaseRunner.setTestSuite(TestSuite);
+            soapUITestCaseRunner.setTestCase(TestCase);
+            soapUITestCaseRunner.run();
+            soapUITestCaseRunner.setPrintReport(true);
+            ACTUAL_RESULT = "Success";
+            System.out.print(ACTUAL_RESULT);
+            findTestStepsExecutionDetails(TestCase, TestSuite);
+            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
 
-                for(TestAssertion assertion  : assertions) {
-                    System.out.println(assertion.getName());
-                    Gauge.writeMessage(assertion.getName());
-                }
-
-               // System.out.println(soapUITestCaseRunner.getAssertionResults());
-                Map<TestAssertion, WsdlTestStepResult> temp = soapUITestCaseRunner.getAssertionResults();
-                if(temp != null) {
-                    for (WsdlTestStepResult result : temp.values()) {
-                        System.out.println("********");
-                        System.out.println(result.getStatus());
-                        Gauge.writeMessage(String.valueOf(result.getStatus()));
-                        System.out.println("\n");
-                        Gauge.writeMessage("\n");
-                    }
-                }
-
-                soapUITestCaseRunner.setPrintReport(true);
-                ACTUAL_RESULT = "Success";
-                System.out.print(ACTUAL_RESULT);
-                findTestStepsExecutionDetails(TestCase, TestSuite);
-                Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
-
-            } catch (Exception e) {
-                ACTUAL_RESULT = "Fail";
-                findTestStepsExecutionDetails(TestCase, TestSuite);
-                Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
-                System.err.println("Checking the TestSuite '" + TestSuite + "' and TestCase '" + TestCase + " is failed!");
-                failureCount++;
-                e.printStackTrace();
-            }finally{
-                totalCount++;
-            }
+        } catch (Exception e) {
+            ACTUAL_RESULT = "Fail";
+            findTestStepsExecutionDetails(TestCase, TestSuite);
+            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
+            System.err.println("Checking the TestSuite '" + TestSuite + "' and TestCase '" + TestCase + " is failed!");
+            failureCount++;
+            e.printStackTrace();
+        }finally{
+            totalCount++;
         }
+    }
 
 
 
@@ -87,8 +70,12 @@ public class ExecuteSoapUIAnyTestCase {
         WsdlTestCase testCase = project.getTestSuiteByName( TestSuite ).getTestCaseByName( TestCase );
 
         int numberOfTestSteps = testCase.getTestStepCount();
-        System.out.println("Number of TestSteps = " + numberOfTestSteps + "\n");
-        Gauge.writeMessage("Number of TestSteps = " + numberOfTestSteps + "\n");
+
+        // Print Number of TestSteps
+        if (isVisible == readingFromPropertyFile("VISIBILITY_OF_NUMBER_OF_TEST_STEPS")) {
+            System.out.println("Number of TestSteps = " + numberOfTestSteps + "\n");
+            Gauge.writeMessage("Number of TestSteps = " + numberOfTestSteps + "\n");
+        }
 
         for (int i=0; i<numberOfTestSteps; i++) {
             WsdlTestStep testStep = testCase.getTestStepAt(i);
@@ -100,38 +87,74 @@ public class ExecuteSoapUIAnyTestCase {
             for (TestStepResult result : resultList) {
                 System.out.println("=================================================================================================================================================");
                 Gauge.writeMessage("=================================================================================================================================================");
-                System.out.println(i + ") Executing TestStep '" + testStep.getName() + "'");
-                Gauge.writeMessage("Executing TestStep '" + testStep.getName() + "'");
-                System.out.println("_________________________________________________________________________________________________________");
-                Gauge.writeMessage("_________________________________________________________________________________________________________");
-                System.out.println("\n");
 
-                // Print TestStep Request and Response
-                String request = ((MessageExchange)result).getRequestContent();
-                String response = ((MessageExchange)result).getResponseContent();
-                System.out.println("Request is: \n" + request);
-                Gauge.writeMessage("Request is: \n" + request);
-                System.out.println("_________________________________________________________________________________________________________");
-                Gauge.writeMessage("_________________________________________________________________________________________________________");
-                System.out.println("Response is: \n" + response);
-                Gauge.writeMessage("Response is: \n" + response);
-                System.out.println("_________________________________________________________________________________________________________");
-                Gauge.writeMessage("_________________________________________________________________________________________________________");
-                System.out.println("Execution result = '" + result.getStatus() + "'");
-                Gauge.writeMessage("Execution result = '" + result.getStatus() + "'");
-                System.out.println("_________________________________________________________________________________________________________");
-                Gauge.writeMessage("_________________________________________________________________________________________________________");
-                //System.out.println("Error Details = '" + result.getError() + "'");
-                //Gauge.writeMessage("Error Details = '" + result.getError() + "'");
-                System.out.println("Execution Time = '" + result.getTimeTaken() + " ms'");
-                Gauge.writeMessage("Execution Time = '" + result.getTimeTaken() + " ms'");
-                System.out.println("_________________________________________________________________________________________________________");
-                Gauge.writeMessage("_________________________________________________________________________________________________________");
-                String endPoint = ((MessageExchange)result).getEndpoint();
-                System.out.println("End Point = " + endPoint);
-                Gauge.writeMessage("End Point = " + endPoint);
-                System.out.println("\n");
-                Gauge.writeMessage("\n");
+                // Print TestStep Name
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_TEST_STEP_NAME")) {
+                    System.out.println((i + 1) + ") Executing TestStep '" + testStep.getName() + "'");
+                    Gauge.writeMessage((i + 1) + ") Executing TestStep '" + testStep.getName() + "'");
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print TestStep Request
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_REQUEST")) {
+                    String request = ((MessageExchange) result).getRequestContent();
+                    System.out.println("Request is: " + request);
+                    Gauge.writeMessage("Request is: " + request);
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print TestStep Response
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_RESPONSE")) {
+                    String response = ((MessageExchange) result).getResponseContent();
+                    System.out.println("Response is: \n" + response);
+                    Gauge.writeMessage("Response is: \n" + response);
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print Assertions and Assertion Results
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_ASSERTIONS")) {
+                    List<TestAssertion> assertion;
+                    if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep") {
+                        assertion = ((RestTestRequestStep) testStep).getAssertionList();
+                    } else {
+                        assertion = ((JdbcRequestTestStep) testStep).getAssertionList();
+                    }
+                    for (TestAssertion testAssert : assertion) {
+                        Assertable.AssertionStatus assertionStatus = testAssert.getStatus();
+                        System.out.println("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
+                        Gauge.writeMessage("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
+                    }
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print TestStep Execution Result
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_TEST_STEP_EXECUTION_RESULT")) {
+                    System.out.println("Test Step Execution Result = '" + result.getStatus() + "'");
+                    Gauge.writeMessage("Test Step Execution Result = '" + result.getStatus() + "'");
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print TestStep Execution Time
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_TEST_STEP_EXECUTION_TIME")) {
+                    System.out.println("Test Step Execution Time = '" + result.getTimeTaken() + " ms'");
+                    Gauge.writeMessage("Test Step Execution Time = '" + result.getTimeTaken() + " ms'");
+                    System.out.println("_________________________________________________________________________________________________________");
+                    Gauge.writeMessage("_________________________________________________________________________________________________________");
+                }
+
+                // Print TestStep EndPoint
+                if (isVisible == readingFromPropertyFile("VISIBILITY_OF_END_POINT")){
+                    String endPoint = ((MessageExchange) result).getEndpoint();
+                    System.out.println("End Point = " + endPoint);
+                    Gauge.writeMessage("End Point = " + endPoint);
+                    System.out.println("\n");
+                    Gauge.writeMessage("\n");
+            }
                 System.out.println("=================================================================================================================================================");
                 Gauge.writeMessage("=================================================================================================================================================");
                 System.out.println("\n");
@@ -145,8 +168,14 @@ public class ExecuteSoapUIAnyTestCase {
         }
     }
 
+    public Boolean readingFromPropertyFile(String property) throws IOException {
+        File file = new File("env\\default\\default.properties");
+        FileInputStream fileInput = new FileInputStream(file);
+        Properties properties = new Properties();
+        properties.load(fileInput);
+        Boolean VISIBILITY_OF_PROPERTY = Boolean.valueOf(properties.getProperty(property));
+        return VISIBILITY_OF_PROPERTY;
+    }
+
 
 }
-
-
-
