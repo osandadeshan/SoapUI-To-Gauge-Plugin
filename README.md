@@ -1,5 +1,7 @@
 # SoapUI_Report_Generation_Using_Gauge
-### New framework to execute SoapUI XML from Gauge Framework and generate a detailed HTML Report
+## New framework to execute SoapUI XML from Gauge Framework and generate a detailed HTML Report
+
+
 
 #### How to import this project into your IntelliJ IDEA Community workspace
 1) Clone this project into your computer
