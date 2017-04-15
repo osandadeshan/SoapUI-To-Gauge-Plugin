@@ -17,7 +17,5 @@
         <jarDirectory url="file://$MODULE_DIR$/libs" recursive="true" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="soapui-5.3.0" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

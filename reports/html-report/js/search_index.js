@@ -1,1 +1,1 @@
-var index = {"tags":{"login":["specs\\LoginTestSuite Specification.html"]},"specs":{"LoginTestSuite Specification":["specs\\LoginTestSuite Specification.html"]}};
+var index = {"tags":{},"specs":{"GoogleBooks Specification":["specs\\GoogleBooks.html"]}};
