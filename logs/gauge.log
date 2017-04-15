@@ -889,3 +889,56 @@ java.lang.Thread.run(Thread.java:745)
 19:40:45.996 
 Total time taken: 7.879s
 19:40:45.996 Updates are available. Run gauge --check-updates for more info.
+21:35:39.991 Got a kill message. Killing runner.
+21:35:43.999 Killing runner with PID:3172 forcefully
+21:36:06.961 Checking updates...
+21:36:14.514 # GoogleBooks Specification
+21:36:14.519 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+21:36:14.519 ## GoogleBooks Scenario
+21:36:14.522 * Execute <TestCase> of <TestSuite>
+21:36:21.138 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+21:36:21.138 ## GoogleBooks Scenario
+21:36:21.140 * Execute <TestCase> of <TestSuite>
+21:36:21.897 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+21:36:21.897 ## GoogleBooks Scenario
+21:36:21.899 * Execute <TestCase> of <TestSuite>
+21:36:22.860 
+Failed Step: Execute <TestCase> of <TestSuite>
+21:36:22.860 Specification: specs\GoogleBooks.spec:19
+21:36:22.860 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+21:36:22.860 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.osanda.soapui_test_reporting_lib.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:36:23.073 Plugin [Html Report] with pid [684] has exited
+21:36:23.574 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:36:23.574 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:36:23.574 
+Total time taken: 8.406s
+21:36:23.574 Updates are available. Run gauge --check-updates for more info.

@@ -1,62 +1,63 @@
-2017-04-15 19:40:38,014 WARN  [SoapUI] Missing folder [C:\Users\Osanda Deshan\IdeaProjects\APITesting\ext] for external libraries
-2017-04-15 19:40:38,273 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Osanda Deshan\soapui-settings.xml]
-2017-04-15 19:40:41,419 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:41,419 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:41,419 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:41,435 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:41,437 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:41,543 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
-2017-04-15 19:40:41,548 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2017-04-15 19:40:41,548 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user picks the correct book TestCase]
-2017-04-15 19:40:41,555 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user picks the correct book TestCase]
-2017-04-15 19:40:41,561 INFO  [SoapUITestCaseRunner] running step [User picks the "Code Complete" book]
-2017-04-15 19:40:43,324 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
-2017-04-15 19:40:43,325 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user picks the correct book TestCase], time taken: 1558ms, status: FINISHED
-2017-04-15 19:40:43,325 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user picks the correct book TestCase] finished with status [FINISHED] in 1558ms
-2017-04-15 19:40:43,334 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,334 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,334 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,335 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,337 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,339 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
-2017-04-15 19:40:43,749 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,749 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,749 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,751 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,753 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:43,754 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
-2017-04-15 19:40:43,755 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2017-04-15 19:40:43,755 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user doesn't get any book for invalid isbn TestCase]
-2017-04-15 19:40:43,755 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user doesn't get any book for invalid isbn TestCase]
-2017-04-15 19:40:43,756 INFO  [SoapUITestCaseRunner] running step [User provides an invalid isbn]
-2017-04-15 19:40:44,112 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
-2017-04-15 19:40:44,113 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user doesn't get any book for invalid isbn TestCase], time taken: 348ms, status: FINISHED
-2017-04-15 19:40:44,113 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user doesn't get any book for invalid isbn TestCase] finished with status [FINISHED] in 348ms
-2017-04-15 19:40:44,133 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,134 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,135 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,138 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,143 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,147 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
-2017-04-15 19:40:44,545 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,545 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,545 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,547 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,549 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,550 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
-2017-04-15 19:40:44,551 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2017-04-15 19:40:44,551 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user gets an error for the null query TestCase]
-2017-04-15 19:40:44,551 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user gets an error for the null query TestCase]
-2017-04-15 19:40:44,552 INFO  [SoapUITestCaseRunner] running step [User provides an invalid isbn]
-2017-04-15 19:40:44,847 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
-2017-04-15 19:40:44,847 INFO  [SoapUITestCaseRunner] Assertion [Validate that the response contains null for the query] has status FAILED
-2017-04-15 19:40:44,847 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [null] in Response
-2017-04-15 19:40:44,847 ERROR [SoapUITestCaseRunner] User provides an invalid isbn failed, exporting to [C:\Users\Osanda Deshan\IdeaProjects\APITesting\Books_TestSuite-Validate_that_the_user_gets_an_error_for_the_null_query_TestCase-User_provides_an_invalid_isbn-0-FAILED.txt]
-2017-04-15 19:40:44,859 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user gets an error for the null query TestCase], time taken: 275ms, status: FAILED
-2017-04-15 19:40:44,859 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user gets an error for the null query TestCase] finished with status [FAILED] in 275ms
-2017-04-15 19:40:44,875 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,876 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,876 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,877 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,878 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
-2017-04-15 19:40:44,880 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/APITesting/resources/GoogleBooks.xml]
+2017-04-15 21:36:14,897 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\mysql-connector-java-5.1.37.jar] to extensions classpath
+2017-04-15 21:36:14,898 INFO  [SoapUI] Adding [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\ext\soapui-5.3.0.jar] to extensions classpath
+2017-04-15 21:36:15,204 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Osanda Deshan\soapui-settings.xml]
+2017-04-15 21:36:18,700 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:18,700 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:18,700 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:18,717 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:18,718 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:18,826 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]
+2017-04-15 21:36:18,832 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2017-04-15 21:36:18,832 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user picks the correct book TestCase]
+2017-04-15 21:36:18,839 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user picks the correct book TestCase]
+2017-04-15 21:36:18,846 INFO  [SoapUITestCaseRunner] running step [User picks the "Code Complete" book]
+2017-04-15 21:36:20,699 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
+2017-04-15 21:36:20,700 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user picks the correct book TestCase], time taken: 1595ms, status: FINISHED
+2017-04-15 21:36:20,700 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user picks the correct book TestCase] finished with status [FINISHED] in 1595ms
+2017-04-15 21:36:20,731 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:20,731 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:20,731 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:20,732 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:20,734 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:20,738 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]
+2017-04-15 21:36:21,149 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,149 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,149 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,151 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,152 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,157 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]
+2017-04-15 21:36:21,158 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2017-04-15 21:36:21,158 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user doesn't get any book for invalid isbn TestCase]
+2017-04-15 21:36:21,158 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user doesn't get any book for invalid isbn TestCase]
+2017-04-15 21:36:21,159 INFO  [SoapUITestCaseRunner] running step [User provides an invalid isbn]
+2017-04-15 21:36:21,538 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
+2017-04-15 21:36:21,539 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user doesn't get any book for invalid isbn TestCase], time taken: 371ms, status: FINISHED
+2017-04-15 21:36:21,539 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user doesn't get any book for invalid isbn TestCase] finished with status [FINISHED] in 371ms
+2017-04-15 21:36:21,556 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,557 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,557 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,561 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,562 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,565 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]
+2017-04-15 21:36:21,906 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,907 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,907 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,909 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,911 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:21,912 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]
+2017-04-15 21:36:21,913 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2017-04-15 21:36:21,913 INFO  [SoapUITestCaseRunner] Running TestCase [Validate that the user gets an error for the null query TestCase]
+2017-04-15 21:36:21,913 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Validate that the user gets an error for the null query TestCase]
+2017-04-15 21:36:21,913 INFO  [SoapUITestCaseRunner] running step [User provides an invalid isbn]
+2017-04-15 21:36:22,205 INFO  [SoapUITestCaseRunner] Assertion [Validate that HTTP Status Code is 200] has status VALID
+2017-04-15 21:36:22,205 INFO  [SoapUITestCaseRunner] Assertion [Validate that the response contains null for the query] has status FAILED
+2017-04-15 21:36:22,206 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [null] in Response
+2017-04-15 21:36:22,206 ERROR [SoapUITestCaseRunner] User provides an invalid isbn failed, exporting to [C:\Users\Osanda Deshan\IdeaProjects\SoapUI_Report_Generation_Using_Gauge\Books_TestSuite-Validate_that_the_user_gets_an_error_for_the_null_query_TestCase-User_provides_an_invalid_isbn-0-FAILED.txt]
+2017-04-15 21:36:22,216 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Validate that the user gets an error for the null query TestCase], time taken: 278ms, status: FAILED
+2017-04-15 21:36:22,217 INFO  [SoapUITestCaseRunner] TestCase [Validate that the user gets an error for the null query TestCase] finished with status [FAILED] in 278ms
+2017-04-15 21:36:22,225 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:22,225 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:22,225 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:22,227 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:22,229 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2017-04-15 21:36:22,230 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Osanda%20Deshan/IdeaProjects/SoapUI_Report_Generation_Using_Gauge/resources/GoogleBooks.xml]

@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="gauge-archetype-java" />
+        <module name="SoapUI_Test_Reporting_Lib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gauge-archetype-java" target="1.5" />
+      <module name="SoapUI_Test_Reporting_Lib" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

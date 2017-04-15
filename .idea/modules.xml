@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gauge-archetype-java.iml" filepath="$PROJECT_DIR$/gauge-archetype-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoapUI_Test_Reporting_Lib.iml" filepath="$PROJECT_DIR$/SoapUI_Test_Reporting_Lib.iml" />
     </modules>
   </component>
 </project>
