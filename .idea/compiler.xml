@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gauge-archetype-java" target="1.8" />
+      <module name="gauge-archetype-java" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

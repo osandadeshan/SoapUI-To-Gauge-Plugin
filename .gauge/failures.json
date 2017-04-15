@@ -3,6 +3,6 @@
 		"-simple-console": "true"
 	},
 	"FailedItems": [
-		"specs\\LoginTestSuite Specification.spec:11"
+		"specs\\GoogleBooks.spec:17"
 	]
 }
