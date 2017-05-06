@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="MaxSoft-API-Test-Automator" />
         <module name="SoapUI_Test_Reporting_Lib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MaxSoft-API-Test-Automator" target="1.5" />
       <module name="SoapUI_Test_Reporting_Lib" target="1.5" />
     </bytecodeTargetLevel>
   </component>

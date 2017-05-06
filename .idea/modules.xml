@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SoapUI_Test_Reporting_Lib.iml" filepath="$PROJECT_DIR$/SoapUI_Test_Reporting_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaxSoft-API-Test-Automator.iml" filepath="$PROJECT_DIR$/MaxSoft-API-Test-Automator.iml" />
     </modules>
   </component>
 </project>
