@@ -9056,3 +9056,510 @@
 21:47:26.752 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
 21:47:26.762 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
 21:47:26.762 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:41:58.191 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+19:41:58.262 Watching directory: C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-API-Test-Automator\specs
+19:41:58.262 Found 2 files
+19:41:58.356 Initializing concepts cache with 0 concepts
+19:41:58.412 Initializing specs cache with 2 specs
+19:41:58.412 Adding specs from C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-API-Test-Automator\specs\GoogleBooks.spec
+19:41:58.412 Adding specs from C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-API-Test-Automator\specs\LoginTestSuite Specification.spec
+19:41:58.413 Initializing steps cache with 18 steps
+19:42:08.172 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:08.172 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:42:12.461 Spec file removed: C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-API-Test-Automator\specs\LoginTestSuite Specification.spec
+19:42:51.038 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.047 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.246 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.246 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.369 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.369 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.600 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.600 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.608 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.608 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.617 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.618 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:51.626 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:51.626 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:53.781 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:53.781 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:53.795 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:53.795 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:53.815 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:53.815 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:54.211 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:54.211 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:54.217 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:54.217 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:54.227 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:54.227 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:42:54.236 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:42:54.236 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.546 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.546 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.553 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.554 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.644 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.644 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.963 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.963 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.968 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.968 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.975 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.975 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:34.981 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:34.981 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.016 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.017 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.161 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.161 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.168 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.168 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.383 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.383 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.389 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.389 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.398 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.398 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:43:58.430 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:43:58.430 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:19.833 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:19.834 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:19.863 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:19.863 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:19.868 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:19.868 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:20.411 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:20.411 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:20.420 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:20.420 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:20.429 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:20.429 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:20.436 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:20.436 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:25.537 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:25.537 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:25.624 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:25.625 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:25.718 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:25.718 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:27.020 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:27.020 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:27.053 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:27.053 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:27.065 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:27.065 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:27.075 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:27.075 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:28.400 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:28.400 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:28.408 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:28.408 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:28.556 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:28.556 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:28.563 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:28.563 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:28.873 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:28.873 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:30.915 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:30.915 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:42.692 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:42.728 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:44:52.564 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:52.564 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:52.572 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:52.572 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:52.908 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:52.908 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:52.918 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:52.918 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:53.263 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:53.263 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:44:58.928 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:44:58.928 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:16.139 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:16.139 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:16.150 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:16.150 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:16.324 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:16.324 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:16.332 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:16.332 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:16.646 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:16.646 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:19.085 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:19.085 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:28.048 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:28.071 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:46:38.702 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:38.702 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:38.711 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:38.713 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:39.131 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:39.131 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:39.138 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:39.138 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:39.548 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:39.548 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:46:41.345 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:46:41.345 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:17.782 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:17.782 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:17.800 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:17.800 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:17.974 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:17.974 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:17.979 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:17.980 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:18.342 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:18.342 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.144 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.144 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.153 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.153 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.318 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.318 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.762 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.762 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.768 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.768 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.775 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.775 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:19.781 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:19.781 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:22.278 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:22.278 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:22.283 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:22.283 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:22.289 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:22.289 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:22.296 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:22.296 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.002 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.002 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.015 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.015 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.157 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.158 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.435 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.436 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.441 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.441 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.447 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.447 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.453 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.454 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.495 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.495 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.501 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.501 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.508 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.508 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:47:26.513 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:47:26.513 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.274 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.274 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.284 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.284 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.294 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.294 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.308 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.308 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.402 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.402 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.409 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.409 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.418 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.418 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:25.425 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:25.425 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.575 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.575 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.581 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.581 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.587 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.588 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.593 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.593 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.725 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.726 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.732 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.732 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.739 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.739 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:26.746 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:26.746 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:30.407 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:30.407 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:30.416 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:30.416 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:30.422 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:30.422 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:30.429 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:30.429 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:41.986 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:41.986 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.012 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.013 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.034 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.034 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.045 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.045 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.132 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.132 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.141 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.141 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.151 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.151 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:42.161 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:42.161 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.266 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.266 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.274 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.274 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.283 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.283 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.292 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.292 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.362 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.362 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.371 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.372 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.381 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.381 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:43.391 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:43.391 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:48.918 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:48.918 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:48.924 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:48.924 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:48.931 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:48.931 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:48:48.937 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:48:48.937 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:06.108 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:06.108 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:06.113 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:06.113 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:06.120 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:06.120 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:06.126 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:06.126 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.283 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.283 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.616 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.616 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.624 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.625 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.635 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.635 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.644 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.644 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.743 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.744 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.749 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.749 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.755 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.755 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.761 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.761 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.958 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.958 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:17.966 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:17.966 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:42.216 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:42.216 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:42.222 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:42.222 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:42.228 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:42.228 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:42.234 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:42.234 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:45.922 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:45.922 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.226 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.226 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.232 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.232 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.240 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.240 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.246 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.246 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.323 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.323 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.336 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.336 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.443 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.443 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.452 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.452 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.461 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.461 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:49:46.469 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:49:46.469 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.135 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.135 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.140 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.140 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.146 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.147 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.153 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.153 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.205 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.205 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.211 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.211 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.217 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.218 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:05.224 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:05.224 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.071 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.071 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.078 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.078 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.085 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.085 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.090 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.091 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.136 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.136 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.142 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.142 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.148 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.148 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:11.154 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:11.154 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:12.401 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:12.401 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:12.408 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:12.408 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:12.444 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:12.444 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:12.451 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:12.451 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:33.723 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:33.731 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:33.740 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:33.741 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:33.767 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:33.767 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:33.799 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:33.799 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.579 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.579 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.585 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.585 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.592 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.592 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.602 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.602 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.652 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.653 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.658 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.658 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.664 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.664 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:34.670 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:34.670 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:35.954 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:35.954 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:35.964 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:35.964 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:35.977 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:35.977 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:35.987 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:35.987 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:36.065 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:36.065 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:36.074 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:36.074 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:36.084 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:36.084 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:36.094 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:36.094 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:44.349 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:44.349 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:44.358 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:44.358 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:44.368 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:44.368 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:44.378 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:44.378 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.087 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.087 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.096 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.096 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.266 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.266 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.272 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.272 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.753 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.753 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.762 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.762 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.769 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.769 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:52.776 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:52.777 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:53.108 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:53.108 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:50:53.919 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:50:53.919 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:06.102 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:06.103 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:51:16.679 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:16.680 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:16.689 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:16.689 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:17.048 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:17.048 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:17.053 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:17.053 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:17.298 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:17.298 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:51:22.085 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:51:22.085 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:16.499 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:16.499 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:16.599 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:16.599 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:16.620 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:16.620 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:16.625 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:16.625 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:16.977 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:16.977 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:19.018 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:19.018 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:25.881 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:25.881 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:25.932 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:25.932 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:25.949 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:25.949 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:25.960 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:25.960 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:25.968 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:25.968 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.369 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.369 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.378 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.378 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.513 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.513 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.850 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.850 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.856 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.856 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.863 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.863 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:36.871 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:36.871 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:40.193 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:40.193 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:40.200 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:40.201 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:40.207 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:40.207 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
+19:53:40.214 Api Request Received: messageType:GetStepValueResponse messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:53:40.214 Sending API response: messageType:UnsupportedApiMessageResponse messageId:4 unsupportedApiMessageResponse:<> 
