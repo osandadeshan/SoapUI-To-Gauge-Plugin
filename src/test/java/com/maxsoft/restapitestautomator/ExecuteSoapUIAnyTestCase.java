@@ -1,26 +1,26 @@
-package com.maxsoft.osanda.api_test_automator;
+package com.maxsoft.restapitestautomator;
 
-import com.eviware.soapui.impl.wsdl.WsdlProject;
-import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase;
-import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner;
-import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep;
-import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep;
-import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStep;
-import com.eviware.soapui.model.iface.MessageExchange;
-import com.eviware.soapui.model.testsuite.Assertable;
-import com.eviware.soapui.model.testsuite.TestAssertion;
-import com.eviware.soapui.model.testsuite.TestStepResult;
-import com.eviware.soapui.support.types.StringToObjectMap;
-import com.eviware.soapui.tools.SoapUITestCaseRunner;
-import com.thoughtworks.gauge.Gauge;
-import com.thoughtworks.gauge.Step;
-import org.junit.Assert;
+        import com.eviware.soapui.impl.wsdl.WsdlProject;
+        import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase;
+        import com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner;
+        import com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep;
+        import com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep;
+        import com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStep;
+        import com.eviware.soapui.model.iface.MessageExchange;
+        import com.eviware.soapui.model.testsuite.Assertable;
+        import com.eviware.soapui.model.testsuite.TestAssertion;
+        import com.eviware.soapui.model.testsuite.TestStepResult;
+        import com.eviware.soapui.support.types.StringToObjectMap;
+        import com.eviware.soapui.tools.SoapUITestCaseRunner;
+        import com.thoughtworks.gauge.Gauge;
+        import com.thoughtworks.gauge.Step;
+        import org.junit.Assert;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.List;
-import java.util.Properties;
+        import java.io.File;
+        import java.io.FileInputStream;
+        import java.io.IOException;
+        import java.util.List;
+        import java.util.Properties;
 
 
 /**
@@ -37,11 +37,10 @@ public class ExecuteSoapUIAnyTestCase {
     Boolean isVisible = true;
 
 
-
     @Step("Execute <TestCase> of <TestSuite>")
     public void executeSpecificTestCase(String TestCase, String TestSuite) throws Exception {
         EXPECTED_RESULT = "Success";
-        try{
+        try {
             SoapUITestCaseRunner soapUITestCaseRunner = new SoapUITestCaseRunner();
             soapUITestCaseRunner.setProjectFile(FILE_PATH);
             soapUITestCaseRunner.setTestSuite(TestSuite);
@@ -51,26 +50,25 @@ public class ExecuteSoapUIAnyTestCase {
             ACTUAL_RESULT = "Success";
             System.out.print(ACTUAL_RESULT);
             findTestStepsExecutionDetails(TestCase, TestSuite);
-            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
+            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT));
 
         } catch (Exception e) {
             ACTUAL_RESULT = "Fail";
             findTestStepsExecutionDetails(TestCase, TestSuite);
-            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT) );
+            Assert.assertTrue("TestCase execution result is 'FAIL'", EXPECTED_RESULT.equals(ACTUAL_RESULT));
             System.err.println("Checking the TestSuite '" + TestSuite + "' and TestCase '" + TestCase + " is failed!");
             failureCount++;
             e.printStackTrace();
-        }finally{
+        } finally {
             totalCount++;
         }
     }
 
 
-
     public void findTestStepsExecutionDetails(String TestCase, String TestSuite) throws Exception {
         //TestAssertionRegistry.getInstance().addAssertion(new JsonPathContentAssertion.Factory());
-        WsdlProject project = new WsdlProject( FILE_PATH );
-        WsdlTestCase testCase = project.getTestSuiteByName( TestSuite ).getTestCaseByName( TestCase );
+        WsdlProject project = new WsdlProject(FILE_PATH);
+        WsdlTestCase testCase = project.getTestSuiteByName(TestSuite).getTestCaseByName(TestCase);
 
         int numberOfTestSteps = testCase.getTestStepCount();
 
@@ -80,7 +78,7 @@ public class ExecuteSoapUIAnyTestCase {
             Gauge.writeMessage("Number of TestSteps = " + numberOfTestSteps + "\n");
         }
 
-        for (int i=0; i<numberOfTestSteps; i++) {
+        for (int i = 0; i < numberOfTestSteps; i++) {
             WsdlTestStep testStep = testCase.getTestStepAt(i);
 
             WsdlTestCaseRunner runner = new WsdlTestCaseRunner(testCase, new StringToObjectMap());
@@ -107,7 +105,7 @@ public class ExecuteSoapUIAnyTestCase {
                         Gauge.writeMessage("Request is: " + request);
                         System.out.println("_________________________________________________________________________________________________________");
                         Gauge.writeMessage("_________________________________________________________________________________________________________");
-                    } catch (Exception ex){
+                    } catch (Exception ex) {
                         System.out.println("Displaying TestStep Request is supported only for the test steps of RestTestRequestStep");
                         Gauge.writeMessage("Displaying TestStep Request is supported only for the test steps of RestTestRequestStep");
                         System.out.println("_________________________________________________________________________________________________________");
@@ -123,7 +121,7 @@ public class ExecuteSoapUIAnyTestCase {
                         Gauge.writeMessage("Response is: \n" + response);
                         System.out.println("_________________________________________________________________________________________________________");
                         Gauge.writeMessage("_________________________________________________________________________________________________________");
-                    } catch (Exception ex){
+                    } catch (Exception ex) {
                         System.out.println("Displaying TestStep Response is supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
                         Gauge.writeMessage("Displaying TestStep Response is supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
                         System.out.println("_________________________________________________________________________________________________________");
@@ -136,14 +134,11 @@ public class ExecuteSoapUIAnyTestCase {
                     List<TestAssertion> assertion;
                     if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep") {
                         assertion = ((RestTestRequestStep) testStep).getAssertionList();
-                    }
-                    else if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep") {
+                    } else if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.JdbcRequestTestStep") {
                         assertion = ((JdbcRequestTestStep) testStep).getAssertionList();
-                    }
-                    else if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep") {
+                    } else if (testStep.getClass().getName() == "com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep") {
                         assertion = null;
-                    }
-                    else {
+                    } else {
                         assertion = null;
                         System.out.println("Displaying Assertions are supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
                         Gauge.writeMessage("Displaying Assertions are supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
@@ -155,7 +150,7 @@ public class ExecuteSoapUIAnyTestCase {
                             System.out.println("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
                             Gauge.writeMessage("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
                         }
-                    } catch (Exception ex){
+                    } catch (Exception ex) {
                         System.out.println("Displaying Assertions are supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
                         Gauge.writeMessage("Displaying Assertions are supported only for the test steps of RestTestRequestStep and JdbcRequestTestStep");
                     }
@@ -180,14 +175,14 @@ public class ExecuteSoapUIAnyTestCase {
                 }
 
                 // Print TestStep EndPoint
-                if (isVisible == readingFromPropertyFile("visibility_of_end_point")){
+                if (isVisible == readingFromPropertyFile("visibility_of_end_point")) {
                     try {
                         String endPoint = ((MessageExchange) result).getEndpoint();
                         System.out.println("End Point = " + endPoint);
                         Gauge.writeMessage("End Point = " + endPoint);
                         System.out.println("\n");
                         Gauge.writeMessage("\n");
-                    } catch (Exception ex){
+                    } catch (Exception ex) {
                         System.out.println("Displaying End Point is supported only for the test steps of RestTestRequestStep");
                         Gauge.writeMessage("Displaying End Point is supported only for the test steps of RestTestRequestStep");
                         System.out.println("_________________________________________________________________________________________________________");

@@ -11,8 +11,8 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 19:22:05.949 Specification: specs\LoginTestSuite Specification.spec:13
 19:22:05.949 Error Message: java.lang.NullPointerException
 19:22:05.949 Stacktrace: 
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.findTestStepsExecutionDetails(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:70)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:56)
+ExecuteSoapUIAnyTestCase.findTestStepsExecutionDetails(ExecuteSoapUIAnyTestCase.java:70)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:56)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -48,7 +48,7 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 19:29:32.408 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:57)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:57)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,7 +84,7 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 19:37:43.965 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:57)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:57)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -120,7 +120,7 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 19:47:12.839 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:57)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:57)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,7 +156,7 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 19:18:34.662 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -215,7 +215,7 @@ Failed Step: Execute TestCase of "Login Existing User With Correct Username Pass
 21:49:32.195 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -277,7 +277,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 10:00:57.258 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -328,7 +328,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 10:09:14.690 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -379,7 +379,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 10:43:38.984 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -442,7 +442,7 @@ com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.jav
 com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
 com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
 com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:48)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:48)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -496,7 +496,7 @@ com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.jav
 com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
 com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
 com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:48)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:48)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -550,7 +550,7 @@ com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.jav
 com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
 com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
 com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:48)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:48)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -661,7 +661,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:13:29.628 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -712,7 +712,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:25:59.845 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -763,7 +763,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:28:22.648 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.java:58)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -814,7 +814,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:31:42.246 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -865,7 +865,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:40:45.478 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -918,7 +918,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 21:36:22.860 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -971,7 +971,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 21:31:10.515 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1026,7 +1026,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 21:47:05.286 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1077,7 +1077,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:44:51.172 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1128,7 +1128,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:46:37.340 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1179,7 +1179,7 @@ Failed Step: Execute <TestCase> of <TestSuite>
 19:51:15.359 Stacktrace: 
 org.junit.Assert.fail(Assert.java:88)
 org.junit.Assert.assertTrue(Assert.java:41)
-com.maxsoft.osanda.api_test_automator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1203,3 +1203,107 @@ java.lang.Thread.run(Thread.java:745)
 19:51:15.766 
 Total time taken: 9.162s
 19:51:15.766 Updates are available. Run gauge --check-updates for more info.
+11:44:49.803 Got a kill message. Killing runner.
+11:44:53.927 Killing runner with PID:6500 forcefully
+11:45:48.575 Checking updates...
+11:45:57.541 # GoogleBooks Specification
+11:45:57.551 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+11:45:57.551 ## GoogleBooks Scenario
+11:45:57.551 * Execute <TestCase> of <TestSuite>
+11:46:11.386 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+11:46:11.386 ## GoogleBooks Scenario
+11:46:11.387 * Execute <TestCase> of <TestSuite>
+11:46:12.177 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+11:46:12.177 ## GoogleBooks Scenario
+11:46:12.182 * Execute <TestCase> of <TestSuite>
+11:46:13.195 
+Failed Step: Execute <TestCase> of <TestSuite>
+11:46:13.195 Specification: specs\GoogleBooks.spec:19
+11:46:13.195 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+11:46:13.195 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:46:14.929 Plugin [Html Report] with pid [808] has exited
+11:46:15.229 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:46:15.229 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:46:15.229 
+Total time taken: 16.09s
+11:46:15.250 Updates are available. Run gauge --check-updates for more info.
+11:58:48.798 Checking updates...
+11:58:56.430 # GoogleBooks Specification
+11:58:56.434 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+11:58:56.434 ## GoogleBooks Scenario
+11:58:56.438 * Execute <TestCase> of <TestSuite>
+11:59:03.817 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+11:59:03.817 ## GoogleBooks Scenario
+11:59:03.818 * Execute <TestCase> of <TestSuite>
+11:59:04.633 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+11:59:04.633 ## GoogleBooks Scenario
+11:59:04.636 * Execute <TestCase> of <TestSuite>
+11:59:05.599 
+Failed Step: Execute <TestCase> of <TestSuite>
+11:59:05.599 Specification: specs\GoogleBooks.spec:19
+11:59:05.599 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+11:59:05.599 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:58)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:59:05.905 Plugin [Html Report] with pid [8268] has exited
+11:59:06.205 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:59:06.205 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:59:06.205 
+Total time taken: 9.459s
+11:59:06.205 Updates are available. Run gauge --check-updates for more info.

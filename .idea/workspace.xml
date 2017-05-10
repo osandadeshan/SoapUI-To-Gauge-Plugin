@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b7f5f2-8b96-4d60-9ba3-41c8d11fc49d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SoapUI_Test_Reporting_Lib_jar/gauge-archetype-java.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/specs/LoginTestSuite Specification.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/maxsoft/osanda/soapui_test_reporting_lib/ExecuteSoapUIAnyTestCase.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/soapui_test_reporting_lib/ExecuteSoapUIAnyTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/maxsoft/restapitestautomator/ExecuteSoapUIAnyTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gauge/failures.json" afterPath="$PROJECT_DIR$/.gauge/failures.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/global-groovy.log" afterPath="$PROJECT_DIR$/global-groovy.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/api.log" afterPath="$PROJECT_DIR$/logs/api.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/gauge.log" afterPath="$PROJECT_DIR$/logs/gauge.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" afterPath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/normalize.css" afterPath="$PROJECT_DIR$/reports/html-report/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" afterPath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/css/style.css" afterPath="$PROJECT_DIR$/reports/html-report/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/index.html" afterPath="$PROJECT_DIR$/reports/html-report/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" afterPath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/js/main.js" afterPath="$PROJECT_DIR$/reports/html-report/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/specs/GoogleBooks.html" afterPath="$PROJECT_DIR$/reports/html-report/specs/GoogleBooks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/html-report/specs/LoginTestSuite Specification.html" afterPath="$PROJECT_DIR$/reports/html-report/specs/LoginTestSuite Specification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/GoogleBooks.xml" afterPath="$PROJECT_DIR$/resources/GoogleBooks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soapui-errors.log" afterPath="$PROJECT_DIR$/soapui-errors.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soapui.log" afterPath="$PROJECT_DIR$/soapui.log" />
     </list>
@@ -41,12 +53,22 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GoogleBooks.spec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-          <provider editor-type-id="MarkdownPreview">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreview">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,7 +77,7 @@
       <file leaf-file-name="default.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/env/default/default.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -63,11 +85,13 @@
         </entry>
       </file>
       <file leaf-file-name="ExecuteSoapUIAnyTestCase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/restapitestautomator/ExecuteSoapUIAnyTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="193" column="152" selection-start-line="193" selection-start-column="152" selection-end-line="193" selection-end-column="152" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,10 +109,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/.name" />
         <option value="$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/soapui_test_reporting_lib/ExecuteSoapUIAnyTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/maxsoft/restapitestautomator/ExecuteSoapUIAnyTestCase.java" />
       </list>
     </option>
   </component>
@@ -130,9 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,7 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
+              <option name="myItemId" value="MaxSoft-REST-API-Test-Automator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,7 +181,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
+              <option name="myItemId" value="MaxSoft-REST-API-Test-Automator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -173,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api_test_automator" />
+              <option name="myItemId" value="restapitestautomator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
+              <option name="myItemId" value="MaxSoft-REST-API-Test-Automator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -191,58 +215,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html-report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaxSoft-API-Test-Automator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="env" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,33 +225,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gauge Execution.GoogleBooks.spec">
-    <configuration default="false" name="GoogleBooks Scenario (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec:17" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="SoapUI_Test_Reporting_Lib" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GoogleBooks Scenario (2)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec:17" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="MaxSoft-API-Test-Automator" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Gauge Execution.GoogleBooks.spec (1)">
     <configuration default="false" name="GoogleBooks Scenario (3)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec:17" />
@@ -304,6 +253,32 @@
       <method />
     </configuration>
     <configuration default="false" name="GoogleBooks.spec" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="MaxSoft-API-Test-Automator" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoogleBooks Scenario" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec:17" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="MaxSoft-API-Test-Automator" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GoogleBooks.spec (1)" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/GoogleBooks.spec" />
       <setting name="tags" value="" />
@@ -574,19 +549,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec" />
+      <item index="0" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario" />
+      <item index="4" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec" />
-        <item index="1" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario" />
+        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks.spec" />
+        <item index="3" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Gauge Execution.GoogleBooks Scenario (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -620,12 +595,12 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -649,14 +624,43 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-      <provider editor-type-id="MarkdownPreview">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/restapitestautomator/ExecuteSoapUIAnyTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/env/default/default.properties">
@@ -668,14 +672,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-      <provider editor-type-id="MarkdownPreview">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -694,14 +698,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-      <provider editor-type-id="MarkdownPreview">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -713,22 +717,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-      <provider editor-type-id="MarkdownPreview">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
@@ -738,10 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
-      <provider editor-type-id="MarkdownPreview">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -749,19 +742,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/default/default.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/osanda/api_test_automator/ExecuteSoapUIAnyTestCase.java">
+    <entry file="file://$PROJECT_DIR$/specs/GoogleBooks.spec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="193" column="152" selection-start-line="193" selection-start-column="152" selection-end-line="193" selection-end-column="152" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreview">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/maxsoft/restapitestautomator/ExecuteSoapUIAnyTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
