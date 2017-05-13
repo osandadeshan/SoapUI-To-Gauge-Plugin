@@ -66,9 +66,14 @@ public abstract class TestStepsExecutionResults {
                         Gauge.writeMessage("Request is: " + request);
                         System.out.println(readingFromPropertyFile("messages", "straight_line"));
                         Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
+                    } catch (ClassCastException ex) {
+                        System.out.println(readingFromPropertyFile("messages", "class_cast_exception_message_for_request"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "class_cast_exception_message_for_request"));
+                        System.out.println(readingFromPropertyFile("messages", "straight_line"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     } catch (Exception ex) {
-                        System.out.println(readingFromPropertyFile("messages", "exception_message_for_request"));
-                        Gauge.writeMessage(readingFromPropertyFile("messages", "exception_message_for_request"));
+                        System.out.println(readingFromPropertyFile("messages", "common_exception_message_for_request"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "common_exception_message_for_request"));
                         System.out.println(readingFromPropertyFile("messages", "straight_line"));
                         Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     }
@@ -82,9 +87,14 @@ public abstract class TestStepsExecutionResults {
                         Gauge.writeMessage("Response is: \n" + response);
                         System.out.println(readingFromPropertyFile("messages", "straight_line"));
                         Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
+                    } catch (ClassCastException ex) {
+                        System.out.println(readingFromPropertyFile("messages", "class_cast_exception_message_for_response"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "class_cast_exception_message_for_response"));
+                        System.out.println(readingFromPropertyFile("messages", "straight_line"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     } catch (Exception ex) {
-                        System.out.println(readingFromPropertyFile("messages", "exception_message_for_response"));
-                        Gauge.writeMessage(readingFromPropertyFile("messages", "exception_message_for_response"));
+                        System.out.println(readingFromPropertyFile("messages", "common_exception_message_for_response"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "common_exception_message_for_response"));
                         System.out.println(readingFromPropertyFile("messages", "straight_line"));
                         Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     }
@@ -101,8 +111,8 @@ public abstract class TestStepsExecutionResults {
                         assertion = null;
                     } else {
                         assertion = null;
-                        System.out.println(readingFromPropertyFile("messages", "exception_message_for_assertions"));
-                        Gauge.writeMessage(readingFromPropertyFile("messages", "exception_message_for_assertions"));
+                        System.out.println(readingFromPropertyFile("messages", "class_cast_exception_message_for_assertions"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "class_cast_exception_message_for_assertions"));
                     }
                     try {
                         for (TestAssertion testAssert : assertion) {
@@ -110,9 +120,15 @@ public abstract class TestStepsExecutionResults {
                             System.out.println("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
                             Gauge.writeMessage("Assertion [" + testAssert.getName() + "] has status '" + assertionStatus.toString() + "'");
                         }
+                    } catch (ClassCastException ex) {
+                        System.out.println(readingFromPropertyFile("messages", "class_cast_exception_message_for_assertions"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "class_cast_exception_message_for_assertions"));
+                    } catch (NullPointerException ex) {
+                        System.out.println(readingFromPropertyFile("messages", "null_pointer_exception_message_for_assertions"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "null_pointer_exception_message_for_assertions"));
                     } catch (Exception ex) {
-                        System.out.println(readingFromPropertyFile("messages", "exception_message_for_assertions"));
-                        Gauge.writeMessage(readingFromPropertyFile("messages", "exception_message_for_assertions"));
+                        System.out.println(readingFromPropertyFile("messages", "common_exception_message_for_assertions"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "common_exception_message_for_assertions"));
                     }
                     System.out.println(readingFromPropertyFile("messages", "straight_line"));
                     Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
@@ -142,9 +158,14 @@ public abstract class TestStepsExecutionResults {
                         Gauge.writeMessage("End Point = " + endPoint);
                         System.out.println("\n");
                         Gauge.writeMessage("\n");
+                    } catch (ClassCastException ex) {
+                        System.out.println(readingFromPropertyFile("messages", "class_cast_exception_message_for_endpoint"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "class_cast_exception_message_for_endpoint"));
+                        System.out.println(readingFromPropertyFile("messages", "straight_line"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     } catch (Exception ex) {
-                        System.out.println(readingFromPropertyFile("messages", "exception_message_for_endpoint"));
-                        Gauge.writeMessage(readingFromPropertyFile("messages", "exception_message_for_endpoint"));
+                        System.out.println(readingFromPropertyFile("messages", "common_exception_message_for_endpoint"));
+                        Gauge.writeMessage(readingFromPropertyFile("messages", "common_exception_message_for_endpoint"));
                         System.out.println(readingFromPropertyFile("messages", "straight_line"));
                         Gauge.writeMessage(readingFromPropertyFile("messages", "straight_line"));
                     }
