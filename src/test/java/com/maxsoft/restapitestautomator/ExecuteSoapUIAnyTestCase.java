@@ -3,14 +3,11 @@ package com.maxsoft.restapitestautomator;
 import com.eviware.soapui.tools.SoapUITestCaseRunner;
 import com.thoughtworks.gauge.Step;
 import org.junit.Assert;
-
 import static com.maxsoft.restapitestautomator.TestStepsExecutionResults.getTestStepsExecutionResults;
-
 
 /**
  * Created by Osanda on 3/15/2017.
  */
-
 
 public class ExecuteSoapUIAnyTestCase {
 
@@ -47,6 +44,5 @@ public class ExecuteSoapUIAnyTestCase {
             totalCount++;
         }
     }
-
 
 }

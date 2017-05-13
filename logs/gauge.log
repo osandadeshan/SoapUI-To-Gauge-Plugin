@@ -1849,3 +1849,309 @@ java.lang.Thread.run(Thread.java:745)
 16:35:38.762 
 Total time taken: 9.208s
 16:35:38.762 Updates are available. Run gauge --check-updates for more info.
+17:02:52.426 Checking updates...
+17:03:00.148 # GoogleBooks Specification
+17:03:00.152 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+17:03:00.152 ## GoogleBooks Scenario
+17:03:00.156 * Execute <TestCase> of <TestSuite>
+17:03:07.180 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+17:03:07.180 ## GoogleBooks Scenario
+17:03:07.182 * Execute <TestCase> of <TestSuite>
+17:03:07.986 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+17:03:07.987 ## GoogleBooks Scenario
+17:03:07.991 * Execute <TestCase> of <TestSuite>
+17:03:09.019 
+Failed Step: Execute <TestCase> of <TestSuite>
+17:03:09.019 Specification: specs\GoogleBooks.spec:19
+17:03:09.019 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+17:03:09.019 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:03:09.250 Plugin [Html Report] with pid [3812] has exited
+17:03:09.550 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:03:09.550 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:03:09.550 
+Total time taken: 8.93s
+17:03:09.550 Updates are available. Run gauge --check-updates for more info.
+20:06:55.338 Checking updates...
+20:07:05.815 # GoogleBooks Specification
+20:07:05.825 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+20:07:05.825 ## GoogleBooks Scenario
+20:07:05.829 * Execute <TestCase> of <TestSuite>
+20:07:13.169 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+20:07:13.169 ## GoogleBooks Scenario
+20:07:13.170 * Execute <TestCase> of <TestSuite>
+20:07:14.040 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+20:07:14.040 ## GoogleBooks Scenario
+20:07:14.042 * Execute <TestCase> of <TestSuite>
+20:07:15.186 
+Failed Step: Execute <TestCase> of <TestSuite>
+20:07:15.186 Specification: specs\GoogleBooks.spec:19
+20:07:15.186 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+20:07:15.186 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+20:07:15.624 Plugin [Html Report] with pid [9084] has exited
+20:07:15.925 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:07:15.925 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+20:07:15.937 
+Total time taken: 9.757s
+20:07:15.946 Updates are available. Run gauge --check-updates for more info.
+20:21:36.043 Checking updates...
+20:21:43.706 # GoogleBooks Specification
+20:21:43.711 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+20:21:43.711 ## GoogleBooks Scenario
+20:21:43.715 * Execute <TestCase> of <TestSuite>
+20:21:50.963 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+20:21:50.963 ## GoogleBooks Scenario
+20:21:50.964 * Execute <TestCase> of <TestSuite>
+20:21:51.838 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+20:21:51.838 ## GoogleBooks Scenario
+20:21:51.842 * Execute <TestCase> of <TestSuite>
+20:21:52.937 
+Failed Step: Execute <TestCase> of <TestSuite>
+20:21:52.937 Specification: specs\GoogleBooks.spec:19
+20:21:52.937 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+20:21:52.937 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+20:21:53.043 Plugin [Html Report] with pid [10772] has exited
+20:21:53.343 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:21:53.343 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+20:21:53.343 
+Total time taken: 9.318s
+20:21:53.343 Updates are available. Run gauge --check-updates for more info.
+20:25:27.117 Checking updates...
+20:25:34.939 # GoogleBooks Specification
+20:25:34.944 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+20:25:34.944 ## GoogleBooks Scenario
+20:25:34.948 * Execute <TestCase> of <TestSuite>
+20:25:42.141 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+20:25:42.141 ## GoogleBooks Scenario
+20:25:42.143 * Execute <TestCase> of <TestSuite>
+20:25:43.002 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+20:25:43.003 ## GoogleBooks Scenario
+20:25:43.007 * Execute <TestCase> of <TestSuite>
+20:25:44.116 
+Failed Step: Execute <TestCase> of <TestSuite>
+20:25:44.117 Specification: specs\GoogleBooks.spec:19
+20:25:44.117 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+20:25:44.117 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+20:25:44.226 Plugin [Html Report] with pid [4472] has exited
+20:25:44.526 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:25:44.526 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+20:25:44.526 
+Total time taken: 9.236s
+20:25:44.526 Updates are available. Run gauge --check-updates for more info.
+20:35:51.005 Checking updates...
+20:35:59.001 # GoogleBooks Specification
+20:35:59.006 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+20:35:59.006 ## GoogleBooks Scenario
+20:35:59.010 * Execute <TestCase> of <TestSuite>
+20:36:06.086 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+20:36:06.086 ## GoogleBooks Scenario
+20:36:06.087 * Execute <TestCase> of <TestSuite>
+20:36:06.857 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+20:36:06.857 ## GoogleBooks Scenario
+20:36:06.860 * Execute <TestCase> of <TestSuite>
+20:36:07.847 
+Failed Step: Execute <TestCase> of <TestSuite>
+20:36:07.847 Specification: specs\GoogleBooks.spec:19
+20:36:07.847 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+20:36:07.847 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+20:36:07.955 Plugin [Html Report] with pid [2088] has exited
+20:36:08.255 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:36:08.255 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+20:36:08.255 
+Total time taken: 8.93s
+20:36:08.255 Updates are available. Run gauge --check-updates for more info.
+21:25:33.573 Checking updates...
+21:25:40.787 # GoogleBooks Specification
+21:25:40.791 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+21:25:40.791 ## GoogleBooks Scenario
+21:25:40.795 * Execute <TestCase> of <TestSuite>
+21:25:48.126 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+21:25:48.126 ## GoogleBooks Scenario
+21:25:48.127 * Execute <TestCase> of <TestSuite>
+21:25:49.069 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+21:25:49.069 ## GoogleBooks Scenario
+21:25:49.073 * Execute <TestCase> of <TestSuite>
+21:25:50.124 
+Failed Step: Execute <TestCase> of <TestSuite>
+21:25:50.124 Specification: specs\GoogleBooks.spec:19
+21:25:50.124 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+21:25:50.124 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:25:50.230 Plugin [Html Report] with pid [10136] has exited
+21:25:50.530 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:25:50.530 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:25:50.530 
+Total time taken: 9.424s
+21:25:50.530 Updates are available. Run gauge --check-updates for more info.
