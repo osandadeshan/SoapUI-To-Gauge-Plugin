@@ -10244,3 +10244,14 @@
 20:35:58.829 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
 21:25:40.619 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
 21:25:40.620 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+14:16:48.887 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:16:48.888 Watching directory: C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-REST-API-Test-Automator\specs
+14:16:48.888 Found 1 files
+14:16:48.899 Initializing concepts cache with 0 concepts
+14:16:48.900 Initializing specs cache with 1 specs
+14:16:48.900 Adding specs from C:\Users\Osanda Deshan\IdeaProjects\MaxSoft-REST-API-Test-Automator\specs\GoogleBooks.spec
+14:16:48.900 Initializing steps cache with 1 steps
+14:17:10.400 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+14:17:10.400 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+14:18:09.721 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+14:18:09.721 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
