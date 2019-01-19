@@ -1,5 +1,6 @@
-# SoapUI_Report_Generation_Using_Gauge
-## New framework to execute SoapUI XML from Gauge Framework and generate a detailed HTML Report
+# SoapUI To Gauge Plugin
+
+Java plugin to execute SoapUI XML from Gauge and generate a detailed HTML Report.
 
 
 
