@@ -4,7 +4,7 @@ Java plugin to execute SoapUI XML from Gauge and generate a detailed HTML Report
 
 
 
-## How to import this project into your IntelliJ IDEA Community workspace
+## How to import this project into your IntelliJ IDEA Community workspace?
 
 1) Clone this project into your computer
 2) Open IntelliJ IDEA Community Edition
