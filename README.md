@@ -1,6 +1,6 @@
 # SoapUI To Gauge Plugin
 
-Java plugin to execute SoapUI XML from Gauge and generate a detailed HTML Report.
+Java plugin to execute SoapUI XML from Gauge and generate a detailed HTML report.
 
 
 
